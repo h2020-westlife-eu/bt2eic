@@ -1,0 +1,23 @@
+name: root
+channels:
+#- rdkit
+- defaults
+dependencies:
+#- keras
+#- mkl
+- matplotlib
+- numpy
+- pandas
+- pillow
+- pydot
+- python=3.6.3
+#- scikit-learn
+- scipy
+- seaborn
+#- tensorflow
+- jupyter
+# more powerful alternative to pickle:
+- dill 
+- pip
+#- pip:
+#  - molvs
