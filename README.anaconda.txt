@@ -2,23 +2,23 @@ INSTALLING THE COURSE ON WINDOWS
 ================================
 
 The recommended way to participate in the course is described in README.virtualbox.txt.
-However, some pharmaceutical companies have virus checkers that are incompatible with VirtualBox.
-Following these instructions is an alternative way to participate.
+However, virus checkers are incompatible with VirtualBox.
+Following these instructions is an alternative way to run the code.
 
 # Download and install Anconda3.
 
 # clone the git repository 
-git clone https://bitbucket.org/chrishmorris/ml-for-cheminformatics-course.git
+git clone https://github.com/h2020-westlife-eu/bt2eic.git
 
 # open anaconda prompt via the start menu
 
 # change into the course directory
-cd ml-for-cheminformatics-course
+cd bt2eic
 
 # Create the anaconda environment using the yml file. Please ensure to specify 'conda env create' and not 'conda create' 
 conda env create -n ml_course_env --file environment.yml python=3.6
 
-# activate the environment adn start jupyter:
+# activate the environment and start jupyter:
 activate ml_course_env
 jupyter notebook &
 

@@ -1,11 +1,9 @@
-Repository for machine learning course to be given in 2018.
+How to start this project in a VM
+=================================
 
 Folders include:
-raw_data - raw data files used in modelling
-notebooks - jupyter ipython notebooks, a notebook is used for each lesson
-img - stock image files
-lib - stock functions for saving and loading models
-model_data - empty folder, location for saving models
+notebooks - jupyter ipython notebooks
+lib - stock functions 
 
 #Setting up vagrant-------------------------------------------------------
 
@@ -26,14 +24,10 @@ vagrant plugin uninstall vagrant-vbguest
 
 #Creating the vagrant box ------------------------------------------------
 
-# The course is designed to run on a machine with 8G of RAM.
-# If you need to reduce this, edit this line of the Vagrantfile:
-#   vb.memory = "8192"
 
 #All packages are set to be installed on a vagrant box that needs to be created first.
 #To create it please do the following:
 
-cd ml-for-cheminformatics-course
 vagrant up
 # this takes several minutes
 
@@ -53,5 +47,4 @@ vagrant halt
 #To start again after the vagrantbox has been created
 vagrant up
 
-#Beginning the course -----------------------------------------------------
-# Visit  http://127.0.0.1:8888/notebooks/Welcome.ipynb
+# Visit  http://127.0.0.1:8888/notebooks/
